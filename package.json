@@ -1,0 +1,35 @@
+{
+  "name": "labs",
+  "version": "1.0.0",
+  "description": "maxfolley labs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxfolley/labs.git"
+  },
+  "author": "Max Folley",
+  "license": "BSD",
+  "gitHead": "6408a35d321111f272e2ef65fefd7dd86f777c53",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.2.6",
+    "ejs": "~0.8.4",
+    "less-middleware": "~0.1.9"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "devDependencies": {
+    "ejs": "~0.8.4",
+    "express": "~3.2.6",
+    "grunt": "~0.4.1",
+    "less-middleware": "~0.1.9",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "eyes": "~0.1.8"
+  }
+}
