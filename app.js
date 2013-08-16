@@ -3,9 +3,12 @@ var express = require("express"),
     path = require("path"),
     app = express(),
     routes = {
-        index: function (req, res) {
-            res.render("index");
-        }
+      index: function (req, res) {
+        res.render("index");
+      },
+      threejsIntro: function (req, res) {
+        res.render("threejs_intro");
+      }
     };
 
 app.configure(function () {
@@ -23,6 +26,7 @@ app.configure(function () {
 });
 
 app.get("/", routes.index);
+app.get("/threejs-intro", routes.threejsIntro);
 
 http.createServer(app).listen(app.get("port"), function () {
   console.log("Express server listening on port " + app.get("port"));
